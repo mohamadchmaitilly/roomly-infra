@@ -1,0 +1,10 @@
+framework:
+  - terraform
+directory:
+  - .
+
+download-external-modules: false
+evaluate-variables: true
+skip-path:
+  - .terraform
+skip-check: []
