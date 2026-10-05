@@ -1,0 +1,11 @@
+title = "repo gitleaks config"
+
+[extend]
+useDefault = true   
+
+[allowlist]
+paths = [
+  '''(^|/)\.gitleaks\.toml$''',
+  '''(^|/)\.terraform\.lock\.hcl$''',
+  '''(^|/)\.terraform/''',
+]
